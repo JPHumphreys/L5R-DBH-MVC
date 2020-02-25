@@ -8,12 +8,14 @@ namespace L5R_DBH_MVC.Models
 {
     public class Card
     {
-        public string Id { get; set; }
+        
+        public string Id { get; set; }//primary key "shrewd-yasuki"
 
-        public string Name { get; set; }
+        public string Name { get; set; }//"shrewd yasuki"
 
     
 
+        //Game State Values
         public byte Cost { get; set; }
 
         [Range(1, 3)]
@@ -31,7 +33,7 @@ namespace L5R_DBH_MVC.Models
 
 
 
-        // Power Calculations
+        // Power Values
         [Range(0,10)]
         public byte Military { get; set; }
 
