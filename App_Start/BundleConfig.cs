@@ -20,7 +20,8 @@ namespace L5R_DBH_MVC
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/l5r").Include(
-                        "~/Content/l5r.css"
+                        "~/Content/l5r.css",
+                        "~/Content/footer.css"
                         ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
