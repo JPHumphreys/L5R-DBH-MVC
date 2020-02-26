@@ -103,3 +103,5 @@ C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.csproj.Cor
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.csproj.CopyComplete
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.dll
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.pdb
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.InitalMigration.resources
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.csproj.GenerateResource.cache
