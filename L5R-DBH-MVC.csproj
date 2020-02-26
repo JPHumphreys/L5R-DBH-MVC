@@ -193,6 +193,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\darkly.css" />
+    <Content Include="Content\footer.css" />
     <Content Include="Content\l5r.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
