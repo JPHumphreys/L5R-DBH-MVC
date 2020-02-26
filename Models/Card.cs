@@ -93,7 +93,6 @@ namespace L5R_DBH_MVC.Models
 
 
         //Display Attributes
-        [StringLength(500)]
         public string ImageLocation { get; set; }
 
         public string Text { get; set; }

@@ -180,6 +180,14 @@
     <Compile Include="Migrations\202002261918534_InitalMigration.Designer.cs">
       <DependentUpon>202002261918534_InitalMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002261925129_AddingCardsTable.cs" />
+    <Compile Include="Migrations\202002261925129_AddingCardsTable.Designer.cs">
+      <DependentUpon>202002261925129_AddingCardsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002261931185_PopulatingCoreCards.cs" />
+    <Compile Include="Migrations\202002261931185_PopulatingCoreCards.Designer.cs">
+      <DependentUpon>202002261931185_PopulatingCoreCards.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -278,6 +286,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202002261918534_InitalMigration.resx">
       <DependentUpon>202002261918534_InitalMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002261925129_AddingCardsTable.resx">
+      <DependentUpon>202002261925129_AddingCardsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002261931185_PopulatingCoreCards.resx">
+      <DependentUpon>202002261931185_PopulatingCoreCards.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
