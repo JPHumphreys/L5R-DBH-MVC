@@ -19,9 +19,13 @@ namespace L5R_DBH_MVC
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new StyleBundle("~/Content/l5r").Include(
+                        "~/Content/l5r.css"
+                        ));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/darkly.css",
-                      "~/Content/site.css"));
+                      "~/Content/Site.css"));
         }
     }
 }

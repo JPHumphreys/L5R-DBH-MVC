@@ -8,3 +8,8 @@
     --scorpion-colour: #964538;
     --unicorn-colour: #795f8d;
 }
+
+* {
+    text-align: center;
+}
+
