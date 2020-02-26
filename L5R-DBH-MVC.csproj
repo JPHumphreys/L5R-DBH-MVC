@@ -249,12 +249,12 @@
     <Content Include="Views\Cards\Index.cshtml" />
     <Content Include="Views\Shared\_l5r_content.cshtml" />
     <Content Include="Views\Deckbuilders\Index.cshtml" />
+    <Content Include="Views\Decks\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\Api\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Views\Decks\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
