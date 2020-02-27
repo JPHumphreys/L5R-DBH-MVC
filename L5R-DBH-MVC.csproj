@@ -208,6 +208,10 @@
     <Compile Include="Migrations\202002271855243_PopulatingCorePhoenixDynasty.Designer.cs">
       <DependentUpon>202002271855243_PopulatingCorePhoenixDynasty.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002271856469_PopulatingCoreScorpionDynasty.cs" />
+    <Compile Include="Migrations\202002271856469_PopulatingCoreScorpionDynasty.Designer.cs">
+      <DependentUpon>202002271856469_PopulatingCoreScorpionDynasty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271855243_PopulatingCorePhoenixDynasty.resx">
       <DependentUpon>202002271855243_PopulatingCorePhoenixDynasty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002271856469_PopulatingCoreScorpionDynasty.resx">
+      <DependentUpon>202002271856469_PopulatingCoreScorpionDynasty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
