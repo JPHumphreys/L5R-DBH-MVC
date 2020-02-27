@@ -108,3 +108,4 @@ C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R-DBH-MVC.csproj.Gen
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.AddingCardsTable.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreCards.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreCrabDynastyCards.resources
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreCraneDynasty.resources
