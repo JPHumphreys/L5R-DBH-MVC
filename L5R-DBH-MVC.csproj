@@ -188,6 +188,10 @@
     <Compile Include="Migrations\202002261931185_PopulatingCoreCards.Designer.cs">
       <DependentUpon>202002261931185_PopulatingCoreCards.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002271838271_PopulatingCoreCrabDynastyCards.cs" />
+    <Compile Include="Migrations\202002271838271_PopulatingCoreCrabDynastyCards.Designer.cs">
+      <DependentUpon>202002271838271_PopulatingCoreCrabDynastyCards.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -292,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002261931185_PopulatingCoreCards.resx">
       <DependentUpon>202002261931185_PopulatingCoreCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002271838271_PopulatingCoreCrabDynastyCards.resx">
+      <DependentUpon>202002271838271_PopulatingCoreCrabDynastyCards.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
