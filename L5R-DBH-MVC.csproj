@@ -232,6 +232,10 @@
     <Compile Include="Migrations\202002271910313_PopulatingScorpionAndUnicornConflict.Designer.cs">
       <DependentUpon>202002271910313_PopulatingScorpionAndUnicornConflict.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002271911477_PopulatingNeutralConflictAndRoles.cs" />
+    <Compile Include="Migrations\202002271911477_PopulatingNeutralConflictAndRoles.Designer.cs">
+      <DependentUpon>202002271911477_PopulatingNeutralConflictAndRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -369,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271910313_PopulatingScorpionAndUnicornConflict.resx">
       <DependentUpon>202002271910313_PopulatingScorpionAndUnicornConflict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002271911477_PopulatingNeutralConflictAndRoles.resx">
+      <DependentUpon>202002271911477_PopulatingNeutralConflictAndRoles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
