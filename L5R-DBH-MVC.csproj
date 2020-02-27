@@ -200,6 +200,10 @@
     <Compile Include="Migrations\202002271844459_PopulatingCoreDragonDynasty.Designer.cs">
       <DependentUpon>202002271844459_PopulatingCoreDragonDynasty.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002271846234_PopulatingCoreLionDynasty.cs" />
+    <Compile Include="Migrations\202002271846234_PopulatingCoreLionDynasty.Designer.cs">
+      <DependentUpon>202002271846234_PopulatingCoreLionDynasty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -313,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271844459_PopulatingCoreDragonDynasty.resx">
       <DependentUpon>202002271844459_PopulatingCoreDragonDynasty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002271846234_PopulatingCoreLionDynasty.resx">
+      <DependentUpon>202002271846234_PopulatingCoreLionDynasty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

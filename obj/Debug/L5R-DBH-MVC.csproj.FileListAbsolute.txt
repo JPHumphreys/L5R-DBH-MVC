@@ -110,3 +110,4 @@ C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreCrabDynastyCards.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreCraneDynasty.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreDragonDynasty.resources
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreLionDynasty.resources
