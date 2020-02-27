@@ -115,3 +115,4 @@ C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreScorpionDynasty.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCoreUnicornDynasty.resources
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingNeutralDynastyAndConflictCrabCore.resources
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingCraneAndDragonConflict.resources
