@@ -9,7 +9,10 @@
     <h3 class="display-h">These votes will help generate decks to specialise against matchups</h3>
 </div>
 
-@Html.Partial("_CardsRender")
+<div class="container card-container">
+    @Html.Partial("_CardsRender")
+</div>
+
 
 
 
@@ -21,3 +24,24 @@
     <img class="footer-icon" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/8/86/Military.png?version=4896b58c6a3eef9e62beab57c61e043f" />
     <img class="footer-icon" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/e/e3/Political.png?version=f5ee603bd279ff7642ef47922a1cb1b9" />
 </div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function (){
+
+        console.log("hello from the main");
+
+
+
+
+
+            $(".card").on("click", function () {
+                //open a partial to fill in the rating form
+            })
+
+        })
+    </script>
+    
+
+}

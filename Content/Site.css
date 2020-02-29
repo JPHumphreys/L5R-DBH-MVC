@@ -23,3 +23,26 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.card-container.container{
+    padding:0;
+}
+
+.card{
+    padding: 0;
+    margin: .5rem;
+}
+
+.card img{
+    height:100%;
+    width: 100%;
+}
+
+.col-lg-3.card {
+    width: 23.5%;
+}
+
+col-lg-3.card, col-md-4.card, col-sm-6.card {
+    padding-right: 2px;
+    padding-left: 2px;
+}
