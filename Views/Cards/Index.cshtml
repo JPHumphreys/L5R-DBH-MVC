@@ -14,7 +14,30 @@
 </div>
 
 
-
+<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
+    <div class="card-header text-muted">
+        Featured
+    </div>
+    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
+</div>
+<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
+    <div class="card-header text-muted">
+        Featured
+    </div>
+    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
+</div>
+<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
+    <div class="card-header text-muted">
+        Featured
+    </div>
+    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
+</div>
+<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
+    <div class="card-header text-muted">
+        Featured
+    </div>
+    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
+</div>
 
 
 
@@ -28,11 +51,25 @@
 @section scripts
 {
     <script>
-        $(document).ready(function (){
+        $(document).ready(function () {
 
-        console.log("hello from the main");
+            var test;
 
+            $.ajax({
+                'async': false,
+                url: "api/cards",
+                dataType: "json",
+                success: function (data) {
+                    $(".card-container").addClass("success");
+                    test = data;
+                },
+                error: function () {
+                    $(".card-container").addClass("fail");
+                }
+            })
 
+            console.log("test");
+            console.log(test);
 
 
 
@@ -42,6 +79,6 @@
 
         })
     </script>
-    
+
 
 }
