@@ -17,5 +17,9 @@ namespace L5R_DBH_MVC.Controllers.Api
             _context = new ApplicationDbContext();
         }
 
+        public IHttpActionResult GetCards(string query = null)
+        {
+
+        }
     }
 }
