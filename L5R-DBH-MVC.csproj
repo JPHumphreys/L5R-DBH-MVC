@@ -328,6 +328,7 @@
     <Content Include="Views\Shared\_l5r_content.cshtml" />
     <Content Include="Views\Deckbuilders\Index.cshtml" />
     <Content Include="Views\Decks\Index.cshtml" />
+    <Content Include="Views\Cards\_CardsRender.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
