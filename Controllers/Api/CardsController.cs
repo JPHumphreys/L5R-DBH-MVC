@@ -21,7 +21,7 @@ namespace L5R_DBH_MVC.Controllers.Api
 
         // GET /api/cards
         [HttpGet]
-        public List<CardDto> GetCards(string query = null)
+        public List<CardDto> GetCards()
         {
             return _context.Cards.ToList().Select(Mapper.Map<Card, CardDto>).ToList();
                 
