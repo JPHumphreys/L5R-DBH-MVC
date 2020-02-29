@@ -1,4 +1,6 @@
-﻿using L5R_DBH_MVC.Models;
+﻿using AutoMapper;
+using L5R_DBH_MVC.Dtos;
+using L5R_DBH_MVC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,9 +19,12 @@ namespace L5R_DBH_MVC.Controllers.Api
             _context = new ApplicationDbContext();
         }
 
-        public IHttpActionResult GetCards(string query = null)
+        // GET /api/cards
+        [HttpGet]
+        public List<CardDto> GetCards(string query = null)
         {
-
+            return _context.Cards.ToList().Select(Mapper.Map<Card, CardDto>).ToList();
+                
         }
     }
 }
