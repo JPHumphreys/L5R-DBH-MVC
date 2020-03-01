@@ -13,36 +13,6 @@
     @Html.Partial("_CardsRender")
 </div>
 
-
-<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
-    <div class="card-header text-muted">
-        Featured
-    </div>
-    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
-</div>
-<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
-    <div class="card-header text-muted">
-        Featured
-    </div>
-    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
-</div>
-<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
-    <div class="card-header text-muted">
-        Featured
-    </div>
-    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
-</div>
-<div class="card text-center col-lg-3 col-md-4 col-sm-6 ">
-    <div class="card-header text-muted">
-        Featured
-    </div>
-    <img class="card-img" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/6/6c/Shrewd_Yasuki.png?version=52fa901f0d3c41c924603c6d4161dfce" alt="Card image cap">
-</div>
-
-
-
-
-
 <div id="footer-jumbotron" class="jumbotron p-3 mb-5 rounded">
     <img class="footer-icon" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/8/86/Military.png?version=4896b58c6a3eef9e62beab57c61e043f" />
     <img class="footer-icon" src="https://gamepedia.cursecdn.com/l5r_gamepedia_en/e/e3/Political.png?version=f5ee603bd279ff7642ef47922a1cb1b9" />
@@ -64,10 +34,9 @@
                     test = data;
                     for (let i = 0; i < data.length; i++) {
                         var $cardObject = $("<div class='card col-lg-3 col-md-4 col-sm-6'></div>"),
-                            cardHeader = $("<div class='card-header text-muted'></div>"),
+                            cardHeader = $("<div class='card-header text-muted'>" + data[i].name + "</div > "),
                             cardImage = $("<img class='card-image'/>");
                         //debugger;
-                        $(cardHeader).attr("text", data[i].name);
                         $(cardImage).attr("src", data[i].imageLocation);
                         $(cardImage).attr("alt", data[i].id);
                         $cardObject.append(cardHeader, cardImage);
@@ -82,8 +51,9 @@
 
             console.log(test);
 
-            $(".card").on("click", function () {
+            $(".card").on("click", function (element) {
                 //open a partial to fill in the rating form
+                console.log(element.currentTarget.textContent);
             })
 
         })
