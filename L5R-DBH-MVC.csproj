@@ -272,6 +272,14 @@
     <Content Include="Content\darkly.css" />
     <Content Include="Content\cards-navbar.css" />
     <Content Include="Content\l5r.css" />
+    <Content Include="Content\media\flower_NOBACK.png" />
+    <Content Include="Content\media\crab_single_NOBACK.png" />
+    <Content Include="Content\media\crane_single_NOBACK.png" />
+    <Content Include="Content\media\dragon_single_NOBACK.png" />
+    <Content Include="Content\media\lion_single_NOBACK.png" />
+    <Content Include="Content\media\phoenix_single_NOBACK.png" />
+    <Content Include="Content\media\scorpion_single_NOBACK.png" />
+    <Content Include="Content\media\unicorn_single_NOBACK.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

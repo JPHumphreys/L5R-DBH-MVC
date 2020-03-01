@@ -1,11 +1,10 @@
-﻿#properties, #clans, #side, #type {
+﻿#properties, #clan, #side, #type {
     position: fixed;
     height: 40%;
-    background-color:white;
     width: 5%;
 }
 
-    #properties:hover, #clans:hover, #side:hover, #type:hover {
+    #properties:hover, #clan:hover, #side:hover, #type:hover {
         z-index:2;
         cursor:default;
     }
@@ -14,37 +13,38 @@
     left: 0%;
 }
 
-#clans{
-    left: 5%;
+#clan{
+    right: -1%;
+    top: 30%;
 }
 
 #side {
     right: 2%;
-    top: 70%;
+    top: 75%;
 }
 
-#side span{
-    color:black;
-    font-weight:bold;
+#clan span, #side span {
+    color: black;
+    font-weight: bold;
 }
 
 #type{
     right:-1%;
-    top: 70%;
+    top: 75%;
 }
 
 #type i{
     color:black;
 }
 
-    #type button, #side button {
+    #clan button, #type button, #side button {
         width: 50%;
         background-color: #303030;
         border: 2px solid #222222;
         margin: .2rem;
     }
 
-    #type button:hover, #side button:hover{
+    #clan button:hover, #type button:hover, #side button:hover{
         transform:scale(1.1);
         background-color:white;
     }
