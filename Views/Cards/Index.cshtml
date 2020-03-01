@@ -1,13 +1,15 @@
 ﻿@model L5R_DBH_MVC.ViewModels.CardAndRatingViewModel
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_l5r_content.cshtml";
+    Layout = "~/Views/Shared/_l5r-cards.cshtml";
 }
 
 <div id="cards-jumbotron" class="jumbotron shadow p-3 mb-5 rounded">
     <h2 class="display-h">Cards</h2>
     <h3 class="display-h">These votes will help generate decks to specialise against matchups</h3>
 </div>
+
+@Html.Partial("_CardsSearchBox")
 
 @Html.Partial("_CardsNavBar")
 
@@ -54,6 +56,7 @@
             })
 
             $(".sidebar-btn").on("click", function (elememt) {
+
 
                 $(elememt).addClass("selected");
                 const category = elememt.currentTarget.attributes["category"].value;

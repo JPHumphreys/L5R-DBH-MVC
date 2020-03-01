@@ -19,9 +19,10 @@ namespace L5R_DBH_MVC
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new StyleBundle("~/Content/l5r").Include(
+            bundles.Add(new StyleBundle("~/Content/cards").Include(
                         "~/Content/l5r.css",
-                        "~/Content/cards-navbar.css"
+                        "~/Content/cards-navbar.css",
+                        "~/Content/cards-searchbox.css"
                         ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
