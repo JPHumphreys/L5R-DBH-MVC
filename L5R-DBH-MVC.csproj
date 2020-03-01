@@ -270,7 +270,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\darkly.css" />
-    <Content Include="Content\footer.css" />
+    <Content Include="Content\cards-navbar.css" />
     <Content Include="Content\l5r.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -331,6 +331,7 @@
     <Content Include="Views\Deckbuilders\Index.cshtml" />
     <Content Include="Views\Decks\Index.cshtml" />
     <Content Include="Views\Cards\_CardsRender.cshtml" />
+    <Content Include="Views\Cards\_CardsNavBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -21,7 +21,7 @@ namespace L5R_DBH_MVC
 
             bundles.Add(new StyleBundle("~/Content/l5r").Include(
                         "~/Content/l5r.css",
-                        "~/Content/footer.css"
+                        "~/Content/cards-navbar.css"
                         ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
