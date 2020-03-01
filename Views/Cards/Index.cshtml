@@ -46,11 +46,27 @@
                 }
             })
 
-            console.log(test);
+            //console.log(test);
 
             $(".card").on("click", function (element) {
                 //open a partial to fill in the rating form
                 console.log(element.currentTarget.textContent);
+            })
+
+            $(".sidebar-btn").on("click", function (elememt) {
+
+                $(elememt).addClass("selected");
+                const category = elememt.currentTarget.attributes["category"].value;
+                const individual = elememt.currentTarget.attributes["individual"].value;
+                const cards = document.querySelectorAll(".card");
+                debugger;
+                for (let i = 0; i < cards.length; i++) {
+                    if (cards[i].attributes[category].value == individual)
+                        cards[i].hidden = false;
+                    else {
+                        cards[i].hidden = true;
+                    }
+                }
             })
 
         })

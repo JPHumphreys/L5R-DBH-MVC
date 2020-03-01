@@ -44,6 +44,10 @@
         margin: .2rem;
     }
 
+    #clan.selected,#type.selected,#side.selected{
+        background-color:white;
+    }
+
     #clan button:hover, #type button:hover, #side button:hover{
         transform:scale(1.1);
         background-color:white;
