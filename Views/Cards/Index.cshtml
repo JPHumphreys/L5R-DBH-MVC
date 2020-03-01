@@ -62,16 +62,25 @@
                 success: function (data) {
                     $(".card-container").addClass("success");
                     test = data;
+                    for (let i = 0; i < data.length; i++) {
+                        var $cardObject = $("<div class='card col-lg-3 col-md-4 col-sm-6'></div>"),
+                            cardHeader = $("<div class='card-header text-muted'></div>"),
+                            cardImage = $("<img class='card-image'/>");
+                        //debugger;
+                        $(cardHeader).attr("text", data[i].name);
+                        $(cardImage).attr("src", data[i].imageLocation);
+                        $(cardImage).attr("alt", data[i].id);
+                        $cardObject.append(cardHeader, cardImage);
+                        $(".card-container").append($cardObject);
+                    }
                 },
-                error: function () {
+                error: function (error) {
                     $(".card-container").addClass("fail");
+                    console.log(error);
                 }
             })
 
-            console.log("test");
             console.log(test);
-
-
 
             $(".card").on("click", function () {
                 //open a partial to fill in the rating form
