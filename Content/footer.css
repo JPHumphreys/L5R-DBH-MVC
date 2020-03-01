@@ -11,3 +11,10 @@
     height: 5%;
     margin: .5rem;
 }
+
+#footer-jumbotron{
+    position:fixed;
+    bottom: -5%;
+    width: 88.5%;
+    padding: 10px;
+}
