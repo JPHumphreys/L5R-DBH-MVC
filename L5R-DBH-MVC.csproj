@@ -256,6 +256,10 @@
     <Compile Include="Migrations\202003021003529_AddingRatingToDatabase.Designer.cs">
       <DependentUpon>202003021003529_AddingRatingToDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003021007174_PopulatingRatingTable.cs" />
+    <Compile Include="Migrations\202003021007174_PopulatingRatingTable.Designer.cs">
+      <DependentUpon>202003021007174_PopulatingRatingTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -411,6 +415,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003021003529_AddingRatingToDatabase.resx">
       <DependentUpon>202003021003529_AddingRatingToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003021007174_PopulatingRatingTable.resx">
+      <DependentUpon>202003021007174_PopulatingRatingTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

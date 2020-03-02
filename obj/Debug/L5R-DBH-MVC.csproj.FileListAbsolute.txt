@@ -128,3 +128,4 @@ C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\bin\System.Net.Http.Formatting.x
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\bin\System.Web.Http.xml
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\bin\System.Web.Http.WebHost.xml
 C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.AddingRatingToDatabase.resources
+C:\Users\J\source\repos\L5R-DBH-MVC\L5R-DBH-MVC\obj\Debug\L5R_DBH_MVC.Migrations.PopulatingRatingTable.resources
