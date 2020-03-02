@@ -21,6 +21,7 @@ namespace L5R_DBH_MVC.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<Card> Cards { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
 
         public ApplicationDbContext()

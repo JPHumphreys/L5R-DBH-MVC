@@ -252,6 +252,10 @@
     <Compile Include="Migrations\202002271911477_PopulatingNeutralConflictAndRoles.Designer.cs">
       <DependentUpon>202002271911477_PopulatingNeutralConflictAndRoles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003021003529_AddingRatingToDatabase.cs" />
+    <Compile Include="Migrations\202003021003529_AddingRatingToDatabase.Designer.cs">
+      <DependentUpon>202003021003529_AddingRatingToDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Card.cs" />
@@ -404,6 +408,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271911477_PopulatingNeutralConflictAndRoles.resx">
       <DependentUpon>202002271911477_PopulatingNeutralConflictAndRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003021003529_AddingRatingToDatabase.resx">
+      <DependentUpon>202003021003529_AddingRatingToDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
