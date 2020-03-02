@@ -190,6 +190,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\VoteController.cs" />
     <Compile Include="Dtos\CardDto.cs" />
+    <Compile Include="Dtos\RatingDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

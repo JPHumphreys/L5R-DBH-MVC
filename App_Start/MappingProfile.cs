@@ -16,6 +16,7 @@ namespace L5R_DBH_MVC.App_Start
 
             Mapper.CreateMap<Card, CardDto>();
             Mapper.CreateMap<Rating, RatingDto>();
+            Mapper.CreateMap<CardDto, CardDto>();
 
 
 
