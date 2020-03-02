@@ -15,11 +15,14 @@ namespace L5R_DBH_MVC.App_Start
             //API -> Outbound
 
             Mapper.CreateMap<Card, CardDto>();
+            Mapper.CreateMap<Rating, RatingDto>();
 
 
 
             //API <- Inbound
             Mapper.CreateMap<CardDto, Card>()
+                .ForMember(c => c.Id, opt => opt.Ignore());
+            Mapper.CreateMap<RatingDto, Rating>()
                 .ForMember(c => c.Id, opt => opt.Ignore());
         }
 
