@@ -1,20 +1,15 @@
-﻿
+﻿@model L5R_DBH_MVC.ViewModels.VoteFormViewModel
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_l5r-cards.cshtml";
 }
 
-<table id="vote" class="table table-bordered table-hover">
-    <thead>
-        <tr>
-            <th>Username</th>
-            <th>Card</th>
-            <th>Rating</th>
-            <th>Clan</th>
-        </tr>
-    </thead>
-    <tbody></tbody>
-</table>
+<h2>@Model.Id.Split('-')</h2>
+
+@using (Html.BeginForm("Save", "Votes"))
+{
+
+}
 
 @section scripts
 {
