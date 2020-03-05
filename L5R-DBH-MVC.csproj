@@ -358,6 +358,9 @@
     <Content Include="Views\Deckbuilders\_DeckbuilderGrid.cshtml" />
     <Content Include="Views\Shared\_L5R_Deckbuilder.cshtml" />
     <Content Include="Views\Deckbuilders\_Deckbuilder_PrimaryClans.cshtml" />
+    <Content Include="Views\Deckbuilders\_Deckbuilder_SplashClans.cshtml" />
+    <Content Include="Views\Deckbuilders\_Deckbuilder_RoleAndElement.cshtml" />
+    <Content Include="Views\Deckbuilders\_Deckbuilder_VersusClans.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

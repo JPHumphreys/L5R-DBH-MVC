@@ -1,4 +1,7 @@
-﻿body {
+﻿* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 #deckname-location input{
@@ -21,6 +24,43 @@
     box-shadow: none;
 }
 
-.col-6.splash-col{
-    display:inline-block;
+.col-6.splash-col {
+    box-shadow: -4px -4px 4px 0 rgba(130, 130, 130, .1), 4px 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: .2rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+#primary-clan, #splash-clan, #vs-clan, #role-element{
+    margin-top: 1rem;
+    margin-left: 0;
+}
+
+#primary-clan a, #splash-clan a, #role-element a, #vs-clan a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    opacity: .9;
+}
+
+.on-grid{
+    box-shadow: -6px -6px 6px 0 rgba(130, 130, 130, .1),
+    6px 6px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .2rem;
+}
+
+    .on-grid h4 {
+        width: 100%;
+    }
+
+.splash-col.on-grid.splash-clan {
+    float: left;
+    margin-top: .5rem;
+}
+
+.splash-col.on-grid.splash-support {
+    float: right;
+    padding-left: .4rem;
 }
