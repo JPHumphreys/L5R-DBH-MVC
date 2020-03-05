@@ -58,7 +58,18 @@
 
             $("#card-search").on("input", function (element) {
                 let inputValue = document.getElementById("card-search").value;
-                console.log(inputValue);
+                const cards = document.querySelectorAll(".card");
+                for (let i = 0; i < cards.length; i++) {
+                    if (cards[i].childNodes[0].textContent.toLowerCase().includes(inputValue.toLowerCase())) {
+                        cards[i].hidden = false;
+                    }
+                    else {
+                        cards[i].hidden = true;
+                    }
+
+                    
+                }
+                //console.log(inputValue);
             })
 
             $(".sidebar-btn").on("click", function (elememt) {
