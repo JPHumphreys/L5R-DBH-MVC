@@ -24,6 +24,10 @@ namespace L5R_DBH_MVC
                         "~/Content/cards-navbar.css",
                         "~/Content/cards-searchbox.css"
                         ));
+            bundles.Add(new StyleBundle("~/Content/deckbuilder").Include(
+                        "~/Content/l5r.css",
+                        "~/Content/deckbuilder.css"
+                ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/darkly.css",

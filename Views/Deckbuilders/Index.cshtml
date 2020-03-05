@@ -1,10 +1,12 @@
 ﻿
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_l5r-cards.cshtml";
+    Layout = "~/Views/Shared/_L5R_Deckbuilder.cshtml";
 }
 
 <div id="deckbuilder-jumbotron" class="jumbotron shadow p-3 mb-3 rounded">
     <h2 class="display-h">Deckbuilder</h2>
     <h3 class="display-h">This is where you generate decks</h3>
 </div>
+
+@Html.Partial("_DeckbuilderGrid")

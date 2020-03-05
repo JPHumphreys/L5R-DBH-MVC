@@ -283,6 +283,7 @@
     <Content Include="Content\cards-searchbox.css" />
     <Content Include="Content\darkly.css" />
     <Content Include="Content\cards-navbar.css" />
+    <Content Include="Content\deckbuilder.css" />
     <Content Include="Content\l5r.css" />
     <Content Include="Content\media\flower_NOBACK.png" />
     <Content Include="Content\media\crab_single_NOBACK.png" />
@@ -347,13 +348,15 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Cards\Index.cshtml" />
-    <Content Include="Views\Shared\_l5r-cards.cshtml" />
+    <Content Include="Views\Shared\_L5R_Cards.cshtml" />
     <Content Include="Views\Deckbuilders\Index.cshtml" />
     <Content Include="Views\Decks\Index.cshtml" />
     <Content Include="Views\Cards\_CardsRender.cshtml" />
     <Content Include="Views\Cards\_CardsNavBar.cshtml" />
     <Content Include="Views\Cards\_CardsSearchBox.cshtml" />
     <Content Include="Views\Vote\Index.cshtml" />
+    <Content Include="Views\Deckbuilders\_DeckbuilderGrid.cshtml" />
+    <Content Include="Views\Shared\_L5R_Deckbuilder.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
