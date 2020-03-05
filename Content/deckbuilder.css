@@ -5,3 +5,8 @@
     font-size:large;
 }
 
+#submit-button {
+    color: #8c2222;
+    border-color: #8c2222;
+    background-color: #222222;
+}
