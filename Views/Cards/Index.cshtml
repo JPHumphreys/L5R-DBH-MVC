@@ -56,6 +56,11 @@
                 console.log(element.currentTarget.textContent);
             })
 
+            $("#card-search").on("input", function (element) {
+                let inputValue = document.getElementById("card-search").value;
+                console.log(inputValue);
+            })
+
             $(".sidebar-btn").on("click", function (elememt) {
 
 
