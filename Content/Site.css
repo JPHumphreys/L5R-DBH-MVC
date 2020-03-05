@@ -1,4 +1,8 @@
-﻿
+﻿:root {
+    --background-colour: #222222;
+    --section-colour: #303030;
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;

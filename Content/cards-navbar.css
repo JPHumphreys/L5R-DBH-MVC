@@ -39,8 +39,8 @@
 
     #clan button, #type button, #side button {
         width: 50%;
-        background-color: #303030;
-        border: 2px solid #222222;
+        background-color: var(--section-colour);
+        border: 2px solid var(--background-colour);
         margin: .2rem;
     }
 
