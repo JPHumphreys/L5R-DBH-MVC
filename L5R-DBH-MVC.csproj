@@ -357,6 +357,7 @@
     <Content Include="Views\Vote\Index.cshtml" />
     <Content Include="Views\Deckbuilders\_DeckbuilderGrid.cshtml" />
     <Content Include="Views\Shared\_L5R_Deckbuilder.cshtml" />
+    <Content Include="Views\Deckbuilders\_Deckbuilder_PrimaryClans.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
