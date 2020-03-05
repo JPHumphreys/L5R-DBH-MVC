@@ -10,3 +10,8 @@
     border-color: #8c2222;
     background-color: var(--background-colour);
 }
+
+.grid-row{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
