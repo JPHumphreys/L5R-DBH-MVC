@@ -23,8 +23,8 @@ namespace L5R_DBH_MVC.Controllers.Api
         [HttpGet]
         public IHttpActionResult GetCards()
         {
-            var cards = _context.Cards.ToList().Select(Mapper.Map<Card, CardDto>).ToList();
-            var ratings = _context.Ratings.ToList().Select(Mapper.Map<Rating, RatingDto>).ToList();
+            var cards = _context.Cards.ToList();
+            var ratings = _context.Ratings.ToList();
 
             var returnValue = (from c in cards
                                join r in ratings on c.Id equals r.Id

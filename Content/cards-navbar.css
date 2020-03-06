@@ -10,7 +10,8 @@
     }
 
 #properties {
-    left: 0%;
+    right: 2%;
+    top: 30%;
 }
 
 #clan{
@@ -33,22 +34,22 @@
     top: 75%;
 }
 
-#type i{
+#type i, #properties i{
     color:black;
 }
 
-    #clan button, #type button, #side button {
+    #properties button, #clan button, #type button, #side button{
         width: 50%;
         background-color: var(--section-colour);
         border: 2px solid var(--background-colour);
         margin: .2rem;
     }
 
-    #clan.selected,#type.selected,#side.selected{
+    #properties.selected,#clan.selected,#type.selected,#side.selected{
         background-color:white;
     }
 
-    #clan button:hover, #type button:hover, #side button:hover{
+    #properties button:hover, #clan button:hover, #type button:hover, #side button:hover{
         transform:scale(1.1);
         background-color:white;
     }

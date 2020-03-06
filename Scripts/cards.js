@@ -10,7 +10,14 @@ function GenerateCards(data) {
             overallRating = $("<div class='card-footer text-muted'>" + "Rating: " + data[i].overallRating + "</div>");
         //debugger;
         $(cardImage).attr({ src: data[i].imageLocation, alt: data[i].id });
-        $cardObject.attr({ clan: data[i].clan, side: data[i].side, type: data[i].cardType })
+        $cardObject.attr({
+            clan: data[i].clan,
+            side: data[i].side,
+            type: data[i].cardType,
+            military: data[i].military,
+            political: data[i].political,
+            glory: data[i].glory
+        })
         $cardObject.append(cardHeader, cardImage, overallRating);
         $(".card-container").append($cardObject);
     }
