@@ -10,6 +10,7 @@ namespace L5R_DBH_MVC
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/site.js",
+                        "~/Scripts/toastr.js",
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/cards").Include(
@@ -44,6 +45,7 @@ namespace L5R_DBH_MVC
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/l5r.css",
+                      "~/Content/toastr.css",
                       "~/Content/darkly.css",
                       "~/Content/Site.css"));
         }

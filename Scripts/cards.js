@@ -15,3 +15,31 @@ function GenerateCards(data) {
         $(".card-container").append($cardObject);
     }
 }
+
+function SearchForCards() {
+    let inputValue = document.getElementById("card-search").value;
+    const cards = document.querySelectorAll(".card");
+    for (let i = 0; i < cards.length; i++) {
+        if (cards[i].childNodes[0].textContent.toLowerCase().includes(inputValue.toLowerCase())) {
+            cards[i].hidden = false;
+        }
+        else {
+            cards[i].hidden = true;
+        }
+    }
+}
+
+function FilterWithSideBar(filter) {
+    $(filter).addClass("selected");
+    const category = filter.currentTarget.attributes["category"].value;
+    const individual = filter.currentTarget.attributes["individual"].value;
+    const cards = document.querySelectorAll(".card");
+    debugger;
+    for (let i = 0; i < cards.length; i++) {
+        if (cards[i].attributes[category].value == individual)
+            cards[i].hidden = false;
+        else {
+            cards[i].hidden = true;
+        }
+    }
+}

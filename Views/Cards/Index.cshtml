@@ -23,18 +23,20 @@
         $(document).ready(function () {
 
             //var exampleText = "test";
+            toastr.info("Loading cards...");
 
             $.ajax({
                 'async': false,
                 url: "api/cards",
                 dataType: "json",
                 success: function (data) {
-                    //$(".card-container").addClass("success");
-                    //debugger;
+
+                    toastr.success("Loaded cards successfully");
                     GenerateCards(data);
                 },
                 error: function (error) {
                     //$(".card-container").addClass("fail");
+                    toastr.error("Cards failed to load");
                     console.log(error);
                 }
             })
@@ -46,37 +48,14 @@
                 console.log(element.currentTarget.textContent);
             })
 
-            $("#card-search").on("input", function (element) {
-                let inputValue = document.getElementById("card-search").value;
-                const cards = document.querySelectorAll(".card");
-                for (let i = 0; i < cards.length; i++) {
-                    if (cards[i].childNodes[0].textContent.toLowerCase().includes(inputValue.toLowerCase())) {
-                        cards[i].hidden = false;
-                    }
-                    else {
-                        cards[i].hidden = true;
-                    }
+            $("#card-search").on("input", function () {
 
-                    
-                }
-                //console.log(inputValue);
+                SearchForCards();
             })
 
-            $(".sidebar-btn").on("click", function (elememt) {
+            $(".sidebar-btn").on("click", function (element) {
 
-
-                $(elememt).addClass("selected");
-                const category = elememt.currentTarget.attributes["category"].value;
-                const individual = elememt.currentTarget.attributes["individual"].value;
-                const cards = document.querySelectorAll(".card");
-                debugger;
-                for (let i = 0; i < cards.length; i++) {
-                    if (cards[i].attributes[category].value == individual)
-                        cards[i].hidden = false;
-                    else {
-                        cards[i].hidden = true;
-                    }
-                }
+                FilterWithSideBar(element);
             })
 
         })
