@@ -21,25 +21,25 @@ namespace L5R_DBH_MVC
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/cards").Include(
-                        "~/Content/Site.css",
-                        "~/Content/l5r.css",
                         "~/Content/cards-navbar.css",
                         "~/Content/cards-searchbox.css",
                         "~/Content/cards.css"
                         ));
             bundles.Add(new StyleBundle("~/Content/deckbuilder").Include(
-                        "~/Content/Site.css",
-                        "~/Content/l5r.css",
                         "~/Content/deckbuilder.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/decks").Include(
-                        "~/Content/Site.css",
-                        "~/Content/l5r.css",
                         "~/Content/decks.css"
                 ));
 
+            bundles.Add(new StyleBundle("~/Content/sidepages").Include(
+                        "~/Content/about.css",
+                        "~/Content/contact.css"
+                ));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/l5r.css",
                       "~/Content/darkly.css",
                       "~/Content/Site.css"));
         }

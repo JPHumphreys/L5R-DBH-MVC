@@ -34,7 +34,7 @@ textarea {
 }
 
 .home-column{
-    border: 2px solid var(--section-colour);
+    /*border: 2px solid var(--section-colour);*/
 }
 
 .home-images{

@@ -276,12 +276,14 @@
     <Compile Include="ViewModels\VoteFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\about.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\cards-searchbox.css" />
     <Content Include="Content\cards.css" />
+    <Content Include="Content\contact.css" />
     <Content Include="Content\darkly.css" />
     <Content Include="Content\cards-navbar.css" />
     <Content Include="Content\deckbuilder.css" />
@@ -366,6 +368,7 @@
     <Content Include="Views\Deckbuilders\_Deckbuilder_VersusClans.cshtml" />
     <Content Include="Views\Shared\_L5R_Decks.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_L5R_SidePages.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
