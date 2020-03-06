@@ -42,8 +42,19 @@ textarea {
     width: 80%;
 }
 
-.home-images:hover{
-    transform: scale(1.1);
-    transition: ease-out 150ms;
-    cursor: pointer;
+    .home-images:hover{
+        transform: scale(1.1);
+        transition: ease-out 150ms;
+        cursor: pointer;
+    }
+
+.btn-default.btn-site{
+    background-color: var(--nav-colour);
+    border-color: var(--nav-colour);
+    color: var(--background-colour);
 }
+
+    .btn-default.btn-site:hover {
+        color: black;
+        border-color: var(--section-colour);
+    }
