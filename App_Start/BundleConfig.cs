@@ -12,6 +12,10 @@ namespace L5R_DBH_MVC
                         "~/Scripts/site.js",
                         "~/Scripts/jquery-{version}.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/cards").Include(
+                        "~/Scripts/cards.js"
+                ));
+
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
