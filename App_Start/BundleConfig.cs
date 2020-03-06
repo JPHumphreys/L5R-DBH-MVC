@@ -29,6 +29,11 @@ namespace L5R_DBH_MVC
                         "~/Content/deckbuilder.css"
                 ));
 
+            bundles.Add(new StyleBundle("~/Content/decks").Include(
+                        "~/Content/l5r.css",
+                        "~/Content/decks.css"
+                ));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/darkly.css",
                       "~/Content/Site.css"));

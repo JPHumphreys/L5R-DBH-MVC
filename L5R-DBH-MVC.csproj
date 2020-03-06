@@ -284,6 +284,7 @@
     <Content Include="Content\darkly.css" />
     <Content Include="Content\cards-navbar.css" />
     <Content Include="Content\deckbuilder.css" />
+    <Content Include="Content\decks.css" />
     <Content Include="Content\l5r.css" />
     <Content Include="Content\media\flower_NOBACK.png" />
     <Content Include="Content\media\crab_single_NOBACK.png" />
@@ -361,6 +362,8 @@
     <Content Include="Views\Deckbuilders\_Deckbuilder_SplashClans.cshtml" />
     <Content Include="Views\Deckbuilders\_Deckbuilder_RoleAndElement.cshtml" />
     <Content Include="Views\Deckbuilders\_Deckbuilder_VersusClans.cshtml" />
+    <Content Include="Views\Shared\_L5R_Decks.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
