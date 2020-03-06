@@ -32,3 +32,18 @@ textarea {
 .footer-text{
     text-align: center;
 }
+
+.home-column{
+    border: 2px solid var(--section-colour);
+}
+
+.home-images{
+    height: 80%;
+    width: 80%;
+}
+
+.home-images:hover{
+    transform: scale(1.1);
+    transition: ease-out 150ms;
+    cursor: pointer;
+}
