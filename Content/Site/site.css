@@ -58,3 +58,14 @@ textarea {
         color: black;
         border-color: var(--section-colour);
     }
+
+.btn.btn-outline-dark{
+    border-color: var(--background-colour);
+    color: var(--background-colour);
+}
+
+    .btn.btn-outline-dark:hover{
+        color: white;
+        border-color: white;
+        background-color: var(--section-colour);
+    }
