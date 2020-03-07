@@ -88,7 +88,11 @@
         background-color: var(--unicorn-colour);
     }
 
-
+#crab-rating, #crane-rating, #dragon-rating,
+#lion-rating, #phoenix-rating, #scorpion-rating,
+#unicorn-rating{
+    float: right;
+}
 
 
 

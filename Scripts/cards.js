@@ -1,8 +1,32 @@
 ﻿const voteModalImageLocation = document.getElementById("vote-modal-image");
 
+const ratingLocations = [
+    "crab-rating", 
+    "crane-rating", 
+    "dragon-rating", 
+    "lion-rating", 
+    "phoenix-rating", 
+    "scorpion-rating", 
+    "unicorn-rating", 
+    "crabRating",
+    "craneRating",
+    "dragonRating",
+    "lionRating",
+    "phoenixRating",
+    "scorpionRating",
+    "unicornRating"
+    ];
 
+function SetRatings(card) {
 
+    //debugger;
+    for (let i = 0; i < (ratingLocations.length / 2); i++) {
+        const ratingLocation = document.getElementById(ratingLocations[i]);
+        ratingLocation.innerHTML = card.currentTarget.attributes[ratingLocations[(i + 7)]].value;
+    }
+    //debugger;
 
+}
 
 function LoadVoteModal(card) {
     //debugger;
@@ -10,6 +34,9 @@ function LoadVoteModal(card) {
     voteModalImageLocation.attributes.alt.value =  card.target.alt;
     //debugger;
     $("#vote-modal").modal("toggle");
+
+    //after the modal has spawned
+    SetRatings(card);
 }
 
 function GenerateCards(data) {
@@ -26,7 +53,14 @@ function GenerateCards(data) {
             type: data[i].cardType,
             military: data[i].military,
             political: data[i].political,
-            glory: data[i].glory
+            glory: data[i].glory,
+            crabRating: data[i].crabRating,
+            craneRating: data[i].craneRating,
+            dragonRating: data[i].dragonRating,
+            lionRating: data[i].lionRating,
+            phoenixRating: data[i].phoenixRating,
+            scorpionRating: data[i].scorpionRating,
+            unicornRating: data[i].unicornRating
         })
         $cardObject.append(cardHeader, cardImage, overallRating);
         $(".card-container").append($cardObject);
@@ -51,7 +85,7 @@ function FilterWithSideBar(filter) {
     const category = filter.currentTarget.attributes["category"].value;
     const individual = filter.currentTarget.attributes["individual"].value;
     const cards = document.querySelectorAll(".card");
-    debugger;
+    //debugger;
     for (let i = 0; i < cards.length; i++) {
         if (cards[i].attributes[category].value == individual)
             cards[i].hidden = false;
