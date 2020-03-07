@@ -13,11 +13,23 @@
 
 #vote-modal-image{
     border-radius: 13px;
+    border: 2px solid white;
     margin-bottom: .8rem;
-    margin-right: 90%;
 }
 
-#rating-input{
+.modal-image{
+    display:inline-block;
+}
+
+.vote-modal-versus-clan{
+    list-style:none;
+    font-size: 22px;
+    margin-bottom: .5rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+#rating-input {
     width: 100%;
 }
 
@@ -35,3 +47,49 @@
 
 
 /* ^ Vote modal for the cards page ^ */
+
+
+
+
+/*  Side Clan Styles  */
+
+
+
+#crab, #crane, #dragon, #lion, #phoenix, #scorpion, #unicorn{
+    background-color: var(--background-colour);
+    border: 2px solid white;
+}
+
+    #crab.selected, #crab:hover{
+        background-color: var(--crab-colour);
+    }
+
+    #crane.selected, #crane:hover{
+        background-color: var(--crane-colour);
+    }
+
+    #dragon.selected, #dragon:hover {
+        background-color: var(--dragon-colour);
+    }
+
+    #lion.selected, #lion:hover {
+        background-color: var(--lion-colour);
+    }
+
+    #phoenix.selected, #phoenix:hover {
+        background-color: var(--phoenix-colour);
+    }
+
+    #scorpion.selected, #scorpion:hover {
+        background-color: var(--scorpion-colour);
+    }
+
+    #unicorn.selected, #unicorn:hover {
+        background-color: var(--unicorn-colour);
+    }
+
+
+
+
+
+/* ^ Side Clan Styles ^ */

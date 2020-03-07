@@ -11,12 +11,32 @@
             </div>
             <div class="modal-body">
 
-                <img id="vote-modal-image" src="" alt="">
+                <div class="row">
+
+                    <div class="col-md-7 modal-image">
+                        <img id="vote-modal-image" src="" alt="">
+                    </div>
+
+                    <div class="col-md-5 modal-clans">
+                        <ul class="side-clans">
+                            <li id="crab" class="vote-modal-versus-clan">Crab <span><b id="crab-rating"></b></span></li>
+                            <li id="crane" class="vote-modal-versus-clan">Crane <span><b id="crane-rating"></b></span></li>
+                            <li id="dragon" class="vote-modal-versus-clan">Dragon <span><b id="dragon-rating"></b></span></li>
+                            <li id="lion" class="vote-modal-versus-clan">Lion <span><b id="lion-rating"></b></span></li>
+                            <li id="phoenix" class="vote-modal-versus-clan">Phoenix <span><b id="phoenix-rating"></b></span></li>
+                            <li id="scorpion" class="vote-modal-versus-clan">Scorpion <span><b id="scorpion-rating"></b></span></li>
+                            <li id="unicorn" class="vote-modal-versus-clan">Unicorn <span><b id="unicorn-rating"></b></span></li>
+                        </ul>
+                    </div>
+                       
+                </div>
 
                 <div id="rating-input" class="input-group input-group-sm">
                     <span class="input-group-text" id="add-rating-title">Range of (1.0 - 10.0)</span>
                     <input id="add-rating-input" type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
                 </div>
+
+
             </div>
             <div id="vote-modal-footer" class="modal-footer">
                 <button type="button" class="btn btn-outline-dark" onclick="">Vote</button>
