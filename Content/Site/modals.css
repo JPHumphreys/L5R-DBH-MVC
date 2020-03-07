@@ -1,0 +1,26 @@
+﻿
+/* Vote modal for the cards page */
+
+#vote-modal-header{
+    background-color: var(--section-colour);
+    color: var(--nav-colour);
+}
+
+#vote-modal-image{
+    border-radius: 13px;
+    margin-bottom: .8rem;
+}
+
+#add-rating-title{
+    margin: .8rem 50%;
+    text-align: center;
+}
+
+#add-rating-input {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+
+
+/* ^ Vote modal for the cards page ^ */

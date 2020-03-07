@@ -276,33 +276,34 @@
     <Compile Include="ViewModels\VoteFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\about.css" />
+    <Content Include="Content\Site\about.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\cards-searchbox.css" />
-    <Content Include="Content\cards.css" />
-    <Content Include="Content\contact.css" />
+    <Content Include="Content\Cards\cards-searchbox.css" />
+    <Content Include="Content\Cards\cards.css" />
+    <Content Include="Content\Site\contact.css" />
     <Content Include="Content\darkly.css" />
-    <Content Include="Content\cards-navbar.css" />
-    <Content Include="Content\deckbuilder.css" />
-    <Content Include="Content\decks.css" />
-    <Content Include="Content\l5r.css" />
-    <Content Include="Content\media\flower_NOBACK.png" />
-    <Content Include="Content\media\crab_single_NOBACK.png" />
-    <Content Include="Content\media\crane_single_NOBACK.png" />
-    <Content Include="Content\media\dragon_single_NOBACK.png" />
-    <Content Include="Content\media\lion_single_NOBACK.png" />
-    <Content Include="Content\media\phoenix_single_NOBACK.png" />
-    <Content Include="Content\media\scorpion_single_NOBACK.png" />
-    <Content Include="Content\media\unicorn_single_NOBACK.png" />
+    <Content Include="Content\Cards\cards-navbar.css" />
+    <Content Include="Content\Deckbuilder\deckbuilder.css" />
+    <Content Include="Content\Decks\decks.css" />
+    <Content Include="Content\L5R\l5r.css" />
+    <Content Include="Content\Media\flower_NOBACK.png" />
+    <Content Include="Content\Media\crab_single_NOBACK.png" />
+    <Content Include="Content\Media\crane_single_NOBACK.png" />
+    <Content Include="Content\Media\dragon_single_NOBACK.png" />
+    <Content Include="Content\Media\lion_single_NOBACK.png" />
+    <Content Include="Content\Media\phoenix_single_NOBACK.png" />
+    <Content Include="Content\Media\scorpion_single_NOBACK.png" />
+    <Content Include="Content\Media\unicorn_single_NOBACK.png" />
+    <Content Include="Content\Site\modals.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Site\site.css" />
     <Content Include="Scripts\bootbox.js" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -376,6 +377,7 @@
     <Content Include="Views\Shared\_L5R_Decks.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Shared\_L5R_SidePages.cshtml" />
+    <Content Include="Views\Cards\_CardsRatingModal.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

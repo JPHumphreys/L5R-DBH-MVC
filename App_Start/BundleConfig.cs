@@ -9,9 +9,10 @@ namespace L5R_DBH_MVC
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/site.js",
+                        "~/Scripts/jquery-{version}.js",
                         "~/Scripts/toastr.js",
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/site.js"
+                        ));
 
             bundles.Add(new ScriptBundle("~/bundles/cards").Include(
                         "~/Scripts/cards.js"
@@ -26,28 +27,29 @@ namespace L5R_DBH_MVC
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/cards").Include(
-                        "~/Content/cards-navbar.css",
-                        "~/Content/cards-searchbox.css",
-                        "~/Content/cards.css"
+                        "~/Content/Site/modals.css",
+                        "~/Content/Cards/cards-navbar.css",
+                        "~/Content/Cards/cards-searchbox.css",
+                        "~/Content/Cards/cards.css"
                         ));
             bundles.Add(new StyleBundle("~/Content/deckbuilder").Include(
-                        "~/Content/deckbuilder.css"
+                        "~/Content/Deckbuilder/deckbuilder.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/decks").Include(
-                        "~/Content/decks.css"
+                        "~/Content/Decks/decks.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/sidepages").Include(
-                        "~/Content/about.css",
-                        "~/Content/contact.css"
+                        "~/Content/Site/about.css",
+                        "~/Content/Site/contact.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/l5r.css",
+                      "~/Content/L5R/l5r.css",
                       "~/Content/toastr.css",
                       "~/Content/darkly.css",
-                      "~/Content/Site.css"));
+                      "~/Content/Site/site.css"));
         }
     }
 }

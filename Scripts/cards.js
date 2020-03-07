@@ -1,6 +1,16 @@
-﻿
+﻿const voteModalImageLocation = document.getElementById("vote-modal-image");
 
 
+
+
+
+function LoadVoteModal(card) {
+    //debugger;
+    voteModalImageLocation.attributes.src.value = card.target.currentSrc;
+    voteModalImageLocation.attributes.alt.value =  card.target.alt;
+    //debugger;
+    $("#vote-modal").modal("toggle");
+}
 
 function GenerateCards(data) {
     for (let i = 0; i < data.length; i++) {
@@ -49,4 +59,12 @@ function FilterWithSideBar(filter) {
             cards[i].hidden = true;
         }
     }
+}
+
+function getImageOfCard(card) {
+    return card.firstElementChild.currentSrc;
+}
+
+function getIdOfCard(card) {
+    return card.firstElementChild.alt;
 }

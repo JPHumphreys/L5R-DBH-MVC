@@ -15,12 +15,17 @@
 
 @Html.Partial("_CardsRender")
 
+@Html.Partial("_CardsRatingModal")
+
 
 @section scripts
 {
     <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
     <script>
         $(document).ready(function () {
+
+            //$("#vote-modal").modal();
 
             //var exampleText = "test";
             toastr.info("Loading cards...");
@@ -45,7 +50,7 @@
 
             $(".card").on("click", function (element) {
                 //open a partial to fill in the rating form
-                console.log(element.currentTarget.textContent);
+                LoadVoteModal(element);
             })
 
             $("#card-search").on("input", function () {

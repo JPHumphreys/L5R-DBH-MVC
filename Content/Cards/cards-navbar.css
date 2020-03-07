@@ -38,16 +38,16 @@
     color:black;
 }
 
-    #properties button, #clan button, #type button, #side button{
-        width: 50%;
-        background-color: var(--section-colour);
-        border: 2px solid var(--background-colour);
-        margin: .2rem;
-    }
+#properties.selected, #clan.selected, #type.selected, #side.selected {
+    background-color: white;
+}
 
-    #properties.selected,#clan.selected,#type.selected,#side.selected{
-        background-color:white;
-    }
+#properties button, #clan button, #type button, #side button{
+    width: 50%;
+    background-color: var(--section-colour);
+    border: 2px solid var(--background-colour);
+    margin: .2rem;
+}
 
     #properties button:hover, #clan button:hover, #type button:hover, #side button:hover{
         transform:scale(1.1);
