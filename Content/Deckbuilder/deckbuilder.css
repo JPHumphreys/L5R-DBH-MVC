@@ -12,6 +12,30 @@
     color: var(--crab-colour);
 }
 
+.on-grid.crane a{
+    color: var(--crane-colour);
+}
+
+.on-grid.dragon a {
+    color: var(--dragon-colour);
+}
+
+.on-grid.lion a {
+    color: var(--lion-colour);
+}
+
+.on-grid.phoenix a {
+    color: var(--phoenix-colour);
+}
+
+.on-grid.scorpion a {
+    color: var(--scorpion-colour);
+}
+
+.on-grid.unicorn a {
+    color: var(--unicorn-colour);
+}
+
 #deckname-location input{
     font-size:large;
 }
