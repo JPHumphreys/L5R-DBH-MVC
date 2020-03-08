@@ -15,7 +15,7 @@ namespace L5R_DBH_MVC
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/cards").Include(
-                        "~/Scripts/cards.js"
+                        "~/Scripts/Cards/cards.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
