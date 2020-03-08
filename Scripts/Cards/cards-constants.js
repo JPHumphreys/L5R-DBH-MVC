@@ -1,4 +1,6 @@
 ﻿const voteModalImageLocation = document.getElementById("vote-modal-image");
+const voteModalTitle = document.getElementById("vote-modal-title");
+const voteModalTitleText = "add a rating for ";
 
 const ratingLocations = [
     "crab-rating",
@@ -16,3 +18,4 @@ const ratingLocations = [
     "scorpionRating",
     "unicornRating"
 ];
+

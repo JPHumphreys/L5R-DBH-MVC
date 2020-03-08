@@ -15,6 +15,9 @@ function LoadVoteModal(card) {
     //sets the image to the card image and sets the id to the alt for easy access.
     voteModalImageLocation.attributes.src.value = getImageOfCard(card);
     voteModalImageLocation.attributes.alt.value = getIdOfCard(card);
+    //debugger;
+    voteModalTitle.innerText = "";
+    voteModalTitle.append(voteModalTitleText + getNameOfCard(card));
 
     $("#vote-modal").modal("toggle");
 
@@ -34,6 +37,7 @@ function GenerateCards(data) {
         $(cardImage).attr({ src: data[i].imageLocation, alt: data[i].id });
 
         $cardObject.attr({
+            name: data[i].name,
             clan: data[i].clan,
             side: data[i].side,
             type: data[i].cardType,
@@ -93,4 +97,8 @@ function getImageOfCard(card) {
 
 function getIdOfCard(card) {
     return card.target.alt;
+}
+
+function getNameOfCard(card) {
+    return card.currentTarget.attributes["name"].value;
 }

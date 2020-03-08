@@ -12,7 +12,7 @@ namespace L5R_DBH_MVC
                         "~/Scripts/jquery-{version}.js",
                         "~/Scripts/toastr.js",
                         "~/Scripts/site.js"
-                        ));
+                ));
 
             bundles.Add(new ScriptBundle("~/bundles/cards").Include(
                         "~/Scripts/Cards/cards-constants.js",
@@ -33,7 +33,8 @@ namespace L5R_DBH_MVC
                         "~/Content/Cards/cards-searchbox.css",
                         "~/Content/Cards/cards.css",
                         "~/Content/Cards/cards-media-queries.css"
-                        ));
+                ));
+
             bundles.Add(new StyleBundle("~/Content/deckbuilder").Include(
                         "~/Content/Deckbuilder/deckbuilder.css",
                         "~/Content/Deckbuilder/deckbuilder-media-queries.css"
@@ -54,7 +55,8 @@ namespace L5R_DBH_MVC
                       "~/Content/toastr.css",
                       "~/Content/darkly.css",
                       "~/Content/Site/site.css",
-                      "~/Content/Site/site-media-queries.css"));
+                      "~/Content/Site/site-media-queries.css"
+                ));
         }
     }
 }
