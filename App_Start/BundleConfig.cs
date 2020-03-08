@@ -27,7 +27,7 @@ namespace L5R_DBH_MVC
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new StyleBundle("~/Content/cards").Include(
-                        "~/Content/Site/modals.css",
+                        "~/Content/Cards/cards-modal.css",
                         "~/Content/Cards/cards-navbar.css",
                         "~/Content/Cards/cards-searchbox.css",
                         "~/Content/Cards/cards.css"
