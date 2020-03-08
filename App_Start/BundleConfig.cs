@@ -15,6 +15,7 @@ namespace L5R_DBH_MVC
                         ));
 
             bundles.Add(new ScriptBundle("~/bundles/cards").Include(
+                        "~/Scripts/Cards/cards-constants.js",
                         "~/Scripts/Cards/cards.js"
                 ));
 
@@ -30,14 +31,17 @@ namespace L5R_DBH_MVC
                         "~/Content/Cards/cards-modal.css",
                         "~/Content/Cards/cards-navbar.css",
                         "~/Content/Cards/cards-searchbox.css",
-                        "~/Content/Cards/cards.css"
+                        "~/Content/Cards/cards.css",
+                        "~/Content/Cards/cards-media-queries.css"
                         ));
             bundles.Add(new StyleBundle("~/Content/deckbuilder").Include(
-                        "~/Content/Deckbuilder/deckbuilder.css"
+                        "~/Content/Deckbuilder/deckbuilder.css",
+                        "~/Content/Deckbuilder/deckbuilder-media-queries.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/decks").Include(
-                        "~/Content/Decks/decks.css"
+                        "~/Content/Decks/decks.css",
+                        "~/Content/Decks/decks-media-queries.css"
                 ));
 
             bundles.Add(new StyleBundle("~/Content/sidepages").Include(
@@ -49,7 +53,8 @@ namespace L5R_DBH_MVC
                       "~/Content/L5R/l5r.css",
                       "~/Content/toastr.css",
                       "~/Content/darkly.css",
-                      "~/Content/Site/site.css"));
+                      "~/Content/Site/site.css",
+                      "~/Content/Site/site-media-queries.css"));
         }
     }
 }

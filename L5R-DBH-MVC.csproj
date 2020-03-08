@@ -276,6 +276,10 @@
     <Compile Include="ViewModels\VoteFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Site\site-media-queries.css" />
+    <Content Include="Content\Decks\decks-media-queries.css" />
+    <Content Include="Content\Deckbuilder\deckbuilder-media-queries.css" />
+    <Content Include="Content\Cards\cards-media-queries.css" />
     <Content Include="Content\Site\about.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -297,7 +301,7 @@
     <Content Include="Content\Media\phoenix_single_NOBACK.png" />
     <Content Include="Content\Media\scorpion_single_NOBACK.png" />
     <Content Include="Content\Media\unicorn_single_NOBACK.png" />
-    <Content Include="Content\Site\modals.css" />
+    <Content Include="Content\Cards\cards-modal.css" />
     <Content Include="Content\toastr.css" />
     <Content Include="Content\toastr.min.css" />
     <Content Include="favicon.ico" />
@@ -311,7 +315,8 @@
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\cards.js" />
+    <Content Include="Scripts\Cards\cards-constants.js" />
+    <Content Include="Scripts\Cards\cards.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -381,6 +386,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\Deckbuilder\" />
+    <Folder Include="Scripts\Decks\" />
+    <Folder Include="Scripts\Site\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
