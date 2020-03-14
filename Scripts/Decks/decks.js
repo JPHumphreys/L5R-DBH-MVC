@@ -1,8 +1,10 @@
 ﻿
-
+const deckRenderLocation = document.getElementById("deck-render-location");
 
 function BuildDeck(deckName, primary, secondary, role, element) {
 
+    let deck;
+    //add the deckname here
 
 
     CreatePrimary(primary);
@@ -12,7 +14,7 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     CreateDeckButtons();
 
 
-
+    deckRenderLocation.appendChild(deck);
 }
 
 function CreateDeckButtons() {
