@@ -37,3 +37,14 @@ function CreateRole(role) {
 function CreateElement(element) {
 
 }
+
+function LoadUserDecks() {
+
+    console.log("loading user decks...");
+
+    //get the number of decks by the user
+    //and store details within an array
+
+    //for loop and create decks via the loop
+    //by calling buildDeck(...);
+}
