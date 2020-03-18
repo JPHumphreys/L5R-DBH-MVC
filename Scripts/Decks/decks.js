@@ -10,13 +10,10 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     name.classList.add("deckname");
     name.innerText = deckName;
 
-    CreatePrimary(primary);
     CreateSecondary(secondary);
-    CreateRole(role);
     CreateElement(element);
 
-    deck.appendChild(name, CreateDeckButtons());
-
+    deck.appendChild(name, CreateTopContainer(primary, role), CreateDeckButtons());
 
     deckRenderLocation.appendChild(deck);
 }
@@ -58,7 +55,7 @@ function CreateTopContainer(primaryName, roleName) {
     let container = document.createElement("div");
     container.classList.add("row", "deck-top-container");
 
-    container.appendChild(CreatePrimary(primaryName));
+    container.appendChild(CreatePrimary(primaryName), CreateRole(roleName));
 
     return container;
 }
@@ -77,13 +74,29 @@ function CreatePrimary(name) {
 
 }
 
+function CreateRole(name) {
+
+    let role = document.createElement("div");
+    role.classList.add("col-3", "role");
+
+    let image = document.createElement("img");
+    image.setAttribute("src", "/Content/Media/" + name + "_colour.jpg");
+    image.setAttribute("alt", name);
+
+    role.appendChild(image);
+
+    return role;
+}
+
+
+function CreateBottomContainer(secondaryName, elementName) {
+
+}
+
 function CreateSecondary(name) {
 
 }
 
-function CreateRole(name) {
-
-}
 
 function CreateElement(name) {
 
