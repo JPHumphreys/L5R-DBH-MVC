@@ -318,6 +318,7 @@
     <Content Include="Scripts\Cards\cards-constants.js" />
     <Content Include="Scripts\Cards\cards.js" />
     <Content Include="Scripts\Deckbuilder\deckbuilder.js" />
+    <Content Include="Scripts\Decks\deck-builder.js" />
     <Content Include="Scripts\Decks\decks.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
