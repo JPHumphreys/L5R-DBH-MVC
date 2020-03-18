@@ -17,8 +17,34 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     deckRenderLocation.appendChild(deck);
 }
 
+function CopyDeck(element) {
+    console.log(element);
+}
+
+function DeleteDeck(element) {
+    console.log(element);
+}
+
 function CreateDeckButtons() {
 
+    let buttonRow = document.createElement("div");
+    buttonRow.classList.add("row", "btn-group", "button-row");
+
+    let copy = document.createElement("button");
+    copy.classList.add("btn","btn-md", "btn-dark", "copy-button");
+    copy.innerText = "Copy";
+    copy.addEventListener("click", function(){
+        CopyDeck(this);
+    });
+
+    let remove = document.createElement("button");
+    remove.classList.add("btn","btn-md", "btn-dark", "delete-button");
+    remove.innerText = "Delete";
+    remove.addEventListener("click", function(){
+        DeleteDeck(this);
+    });
+
+    return buttonRow;
 }
 
 
