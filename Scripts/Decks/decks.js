@@ -1,6 +1,4 @@
 ﻿
-const deckRenderLocation = document.getElementById("deck-render-location");
-
 function BuildDeck(deckName, primary, secondary, role, element) {
 
     let deck = document.createElement("div");
@@ -9,9 +7,6 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     let name = document.createElement("h3");
     name.classList.add("deckname");
     name.innerText = deckName;
-
-    CreateSecondary(secondary);
-    CreateElement(element);
 
     deck.appendChild(
         name,

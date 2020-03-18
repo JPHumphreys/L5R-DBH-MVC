@@ -24,8 +24,8 @@ namespace L5R_DBH_MVC
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/decks").Include(
-                        "~/Scripts/Decks/decks.js",
-                        "~/Scirpts/Decks/deck-builder"
+                        "~/Scripts/Decks/deck-builder.js",
+                        "~/Scripts/Decks/decks.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(

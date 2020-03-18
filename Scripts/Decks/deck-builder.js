@@ -1,4 +1,5 @@
-﻿
+﻿const deckRenderLocation = document.getElementById("deck-render-location");
+
 function CreatePrimary(name) {
 
     let primary = document.createElement("div");
@@ -26,7 +27,6 @@ function CreateRole(name) {
 
     return role;
 }
-
 
 function CreateTopContainer(primaryName, roleName) {
 
