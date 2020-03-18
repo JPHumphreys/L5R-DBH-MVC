@@ -40,15 +40,40 @@ function CreateTopContainer(primaryName, roleName) {
 
 function CreateBottomContainer(secondaryName, elementName) {
 
+    let container = document.createElement("div");
+    container.classList.add("row", "deck-bottom-container");
+
+    container.appendChild(CreateSecondary(secondaryName), CreateElement(elementName));
+
+    return container;
 }
 
 function CreateSecondary(name) {
 
+    let secondary = document.createElement("div");
+    secondary.classList.add("col-8", "secondary");
+
+    let text = document.createElement("h5");
+    text.innerText = name;
+
+    secondary.appendChild(text);
+
+    return secondary;
 }
 
 
 function CreateElement(name) {
 
+    let element = document.createElement("div");
+    element.classList.add("col-3", "element");
+
+    let image = document.createElement("img");
+    image.setAttribute("src", "/Content/Media/" + name + "_colour.jpg");
+    image.setAttribute("alt", name);
+
+    element.appendChild(image);
+
+    return element;
 }
 
 function CreateDeckButtons() {

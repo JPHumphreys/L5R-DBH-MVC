@@ -13,7 +13,11 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     CreateSecondary(secondary);
     CreateElement(element);
 
-    deck.appendChild(name, CreateTopContainer(primary, role), CreateDeckButtons());
+    deck.appendChild(
+        name,
+        CreateTopContainer(primary, role),
+        CreateBottomContainer(secondary, element),
+        CreateDeckButtons());
 
     deckRenderLocation.appendChild(deck);
 }
