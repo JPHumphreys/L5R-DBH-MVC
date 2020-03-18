@@ -23,6 +23,11 @@ namespace L5R_DBH_MVC
                         "~/Scripts/Deckbuilder/deckbuilder.js"
                 ));
 
+            bundles.Add(new ScriptBundle("~/bundles/decks").Include(
+                        "~/Scripts/Decks/decks.js",
+                        "~/Scirpts/Decks/deck-builder"
+                ));
+
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
