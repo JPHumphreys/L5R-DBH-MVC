@@ -53,20 +53,39 @@ function CreateDeckButtons() {
     return buttonRow;
 }
 
+function CreateTopContainer(primaryName, roleName) {
 
-function CreatePrimary(primary) {
+    let container = document.createElement("div");
+    container.classList.add("row", "deck-top-container");
+
+    container.appendChild(CreatePrimary(primaryName));
+
+    return container;
+}
+
+function CreatePrimary(name) {
+
+    let primary = document.createElement("div");
+    primary.classList.add("col-8", "primary");
+
+    let text = document.createElement("h4");
+    text.innerText = name;
+
+    primary.appendChild(text);
+
+    return primary;
 
 }
 
-function CreateSecondary(secondary) {
+function CreateSecondary(name) {
 
 }
 
-function CreateRole(role) {
+function CreateRole(name) {
 
 }
 
-function CreateElement(element) {
+function CreateElement(name) {
 
 }
 
