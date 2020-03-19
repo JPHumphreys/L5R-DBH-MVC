@@ -9,7 +9,7 @@ function CreatePrimary(name) {
     text.innerText = name;
 
     primary.appendChild(text);
-    debugger;
+    //debugger;
 
     return primary;
 
@@ -25,7 +25,7 @@ function CreateRole(name) {
     image.setAttribute("alt", name);
 
     role.appendChild(image);
-    debugger;
+    //debugger;
 
     return role;
 }
@@ -35,7 +35,8 @@ function CreateTopContainer(primaryName, roleName) {
     let container = document.createElement("div");
     container.classList.add("row", "deck-top-container");
 
-    container.appendChild(CreatePrimary(primaryName), CreateRole(roleName));
+    container.appendChild(CreatePrimary(primaryName));
+    container.appendChild(CreateRole(roleName));
 
     return container;
 }
@@ -45,7 +46,8 @@ function CreateBottomContainer(secondaryName, elementName) {
     let container = document.createElement("div");
     container.classList.add("row", "deck-bottom-container");
 
-    container.appendChild(CreateSecondary(secondaryName), CreateElement(elementName));
+    container.appendChild(CreateSecondary(secondaryName));
+    container.appendChild(CreateElement(elementName));
 
     return container;
 }
@@ -59,7 +61,7 @@ function CreateSecondary(name) {
     text.innerText = name;
 
     secondary.appendChild(text);
-    debugger;
+    //debugger;
 
     return secondary;
 }
@@ -75,7 +77,7 @@ function CreateElement(name) {
     image.setAttribute("alt", name);
 
     element.appendChild(image);
-    debugger;
+    //debugger;
 
     return element;
 }

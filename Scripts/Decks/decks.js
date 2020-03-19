@@ -9,11 +9,10 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     name.innerText = deckName;
 
     //debugger;
-    deck.appendChild(
-        name,
-        CreateTopContainer(primary, role),
-        CreateBottomContainer(secondary, element),
-        CreateDeckButtons());
+    deck.appendChild(name);
+    deck.appendChild(CreateTopContainer(primary, role));
+    deck.appendChild(CreateBottomContainer(secondary, element));
+    deck.appendChild(CreateDeckButtons());
 
     deckRenderLocation.appendChild(deck);
 }

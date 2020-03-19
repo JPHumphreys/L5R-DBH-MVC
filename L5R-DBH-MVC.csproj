@@ -276,6 +276,13 @@
     <Compile Include="ViewModels\VoteFormViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Media\air_colour.jpg" />
+    <Content Include="Content\Media\earth_colour.jpg" />
+    <Content Include="Content\Media\fire_colour.jpg" />
+    <Content Include="Content\Media\keeper_colour.jpg" />
+    <Content Include="Content\Media\seeker_colour.jpg" />
+    <Content Include="Content\Media\void_colour.jpg" />
+    <Content Include="Content\Media\water_colour.jpg" />
     <Content Include="Content\Site\site-media-queries.css" />
     <Content Include="Content\Decks\decks-media-queries.css" />
     <Content Include="Content\Deckbuilder\deckbuilder-media-queries.css" />
