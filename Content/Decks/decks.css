@@ -14,6 +14,27 @@
 }
 
 .deck img {
-    width: 80%;
-    height: 80%;
+    width: 20%;
+    height: 20%;
 }
+
+.primary, .role, .secondary, .element {
+    margin: 0 .5rem .5rem .5rem;
+}
+
+/** button styling  */
+
+.button-row {
+    margin: .5rem;
+}
+
+    .button-row button {
+        border-color: #fff;
+    }
+
+        .button-row button:hover {
+            background-color: var(--medium-colour);
+            color: var(--dark-colour);
+            transform: scale(1.05);
+            transition: transform ease-out 100ms;
+        }
