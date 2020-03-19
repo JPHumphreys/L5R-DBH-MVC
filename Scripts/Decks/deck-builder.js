@@ -9,6 +9,7 @@ function CreatePrimary(name) {
     text.innerText = name;
 
     primary.appendChild(text);
+    debugger;
 
     return primary;
 
@@ -24,6 +25,7 @@ function CreateRole(name) {
     image.setAttribute("alt", name);
 
     role.appendChild(image);
+    debugger;
 
     return role;
 }
@@ -57,6 +59,7 @@ function CreateSecondary(name) {
     text.innerText = name;
 
     secondary.appendChild(text);
+    debugger;
 
     return secondary;
 }
@@ -72,6 +75,7 @@ function CreateElement(name) {
     image.setAttribute("alt", name);
 
     element.appendChild(image);
+    debugger;
 
     return element;
 }

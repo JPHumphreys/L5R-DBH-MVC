@@ -1,2 +1,19 @@
-﻿body {
+﻿.deck {
+    border: 2px solid var(--section-colour);
+    border-radius: 7px;
+    padding: 0;
+    margin: .1rem;
+}
+
+.deckname {
+    margin-bottom: 0;
+    color: #fff;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+    background-color: var(--section-colour);
+}
+
+.deck img {
+    width: 80%;
+    height: 80%;
 }

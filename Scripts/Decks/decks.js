@@ -8,6 +8,7 @@ function BuildDeck(deckName, primary, secondary, role, element) {
     name.classList.add("deckname");
     name.innerText = deckName;
 
+    //debugger;
     deck.appendChild(
         name,
         CreateTopContainer(primary, role),
